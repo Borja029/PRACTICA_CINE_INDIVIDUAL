@@ -25,4 +25,3 @@ Este proyecto contiene el despliegue local de la aplicación web del cine median
 2. **Ejecutar el contenedor Nginx** mapeando el puerto 81 local al 80 del contenedor y enlazando el directorio actual:
    ```bash
    docker run -d --name cine-web -p 81:80 -v "${PWD}:/usr/share/nginx/html:ro" nginx
-
